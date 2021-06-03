@@ -34,8 +34,7 @@ i++
 
   GuessAnswer = prompt ("not Right try Again")
 
-  
-}
+  }
 
 if (GuessAnswer = 6){
 

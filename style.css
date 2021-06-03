@@ -1,0 +1,41 @@
+#section1 {
+  margin: 0;
+padding: 0;
+border: 0;
+  background-color: orange;
+  width: 1300px ;
+  height: 200px;
+  
+  display: inline-block ;
+ 
+
+}
+#MainName {
+  display: inline-block;
+  margin: 0;
+  box-sizing: border-box;
+padding: 100px;
+
+}
+#section1h4{
+  display: inline-block;
+  margin: 0;
+  padding: 50px;
+  box-sizing: border-box;
+
+}
+#SectionSide{
+  width: 30vw;
+  height: 60vw;
+display: inline-block;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(223, 149, 13)
+  
+
+}
+
+
+
+
