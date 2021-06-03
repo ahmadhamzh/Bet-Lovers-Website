@@ -6,6 +6,10 @@ var b = "you'll finde all you need about birds welcom to our site"
 
 alert(x)
 
+
+
+var name = prompt ("what's your name")
+
 var welcom = "welcom " + name
 var y = prompt ("what's your favorite pets")
  
@@ -17,6 +21,7 @@ var y = prompt ("what's your favorite pets")
 else if (y ==="birds")
 {alert (b)}
 else {alert ("welcom to our site")}
+
 
 var SecretNumber = 6
 var GuessAnswer = prompt("Between 1 to 9 gusse the secrete Number you got three gusses")
@@ -44,4 +49,7 @@ for (var a= 0; a < Rate;){
 ++a
 }
 
+
+
+document .write ('<h2 style="color:blue">'+welcom+'</h2>')
 
