@@ -4,10 +4,9 @@ height: 200px;
 position: relative;
   background-color: orange;
  
-
 }
 #logo{
- position: absolute;
+ position: relative;
  vertical-align: middle;
 
 }
@@ -24,27 +23,24 @@ position: relative;
   right: 0;
   top: 150PX;
   }
-  #HomeText
+  #HomeText{
     text-decoration-style: none
   
   }
 
-}
+
 #WebsitePody{
-  position: absolute;
+  position: relative;
   width: 100vw;
   height: 80hw;
   margin: 10;
 
 
- 
-  
-
 }
 #SectionSide{
-  height: 1330px;
+ height: 1330px;
  width: 200px;
-float: left;
+ float: left;
   background-color: rgb(223, 149, 13)
 
 }
@@ -53,17 +49,18 @@ float: left;
 
  position: relative;
   left: 200px;
-margin: 10px;
+margin: 50px;
  width: 75vw;
  background-image: url("https://cdn.wallpapersafari.com/1/13/p2ehaF.jpg");
 
 }
 #WelcomePic{
   position: relative;
-width: fit-content;
+
 
 }
 footer{
   background-color: skyblue
-}
 
+
+}
