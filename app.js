@@ -1,19 +1,21 @@
 
-var x = "if you don't like pets don't enter"
-var c = "you'll finde all you need about cats welcom to our site"
-var d = "you'll finde all you need about dogs welcom to ou site"
-var b = "you'll finde all you need about birds welcom to our site"
-
-alert(x)
 
 
+alert("if you don't like bets don't enter")
 
 var name = prompt ("what's your name")
 
 var welcom = "welcom " + name
+document .write ('<h2 style="color:blue">'+welcom+'</h2>')
+
+function favoritebets(){
+
+var c = "you'll finde all you need about cats welcom to our site"
+var d = "you'll finde all you need about dogs welcom to ou site"
+var b = "you'll finde all you need about birds welcom to our site"
+
 var y = prompt ("what's your favorite pets")
  
-
  if(y ==="cats")
  {alert(c)}
  else if (y ==="dogs")
@@ -22,15 +24,16 @@ else if (y ==="birds")
 {alert (b)}
 else {alert ("welcom to our site")}
 
+}
 
-var SecretNumber = 6
-var GuessAnswer = prompt("Between 1 to 9 gusse the secrete Number you got three gusses")
-let i = 0
+favoritebets()
 
-while(GuessAnswer !=6 || i == 3 ){
+function keynum(){
+var GuessAnswer = prompt("guss the key num between 1 to 9")
+
+ while(GuessAnswer !=6 ){
 
  
-i++
 
   GuessAnswer = prompt ("not Right try Again")
 
@@ -40,7 +43,16 @@ if (GuessAnswer = 6){
 
 alert("great guess")
 }
+
+}
+
+keynum()
+
+function rateoursite(){
+
  Rate = prompt("pleas rate our site")
+
+ 
 
 for (var a= 0; a < Rate;){
 
@@ -48,7 +60,9 @@ for (var a= 0; a < Rate;){
 ++a
 }
 
+}
+
+rateoursite()
 
 
-document .write ('<h2 style="color:blue">'+welcom+'</h2>')
 
